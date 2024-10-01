@@ -1,0 +1,363 @@
+@media only screen and (max-width: 768px){
+    body {
+    margin: 0;
+    padding: 0;
+    color: #314584;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    overflow-x: hidden;
+    transition: opacity 1s;
+    min-width: 100%;
+}
+}
+.container{
+    margin:0 auto;
+    width: 1200px;
+}
+.header-section{
+    padding-bottom: 200px;
+    padding-top: 50px;
+    display: flex;
+}
+.logo{
+    width: 10%;
+    font-size: 50px;
+}
+.menu{
+    width: 70%;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li a{
+    font-family: -webkit-body;
+    color: #314584;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 50px;
+}
+.menu ul li a:hover{
+    color: red;
+}
+.header-section button{
+    z-index: 1;
+    background: #FFFFFF;
+    color: red;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 50px;
+    font-family: -webkit-body;
+    font-size: 20px;
+}
+.hero{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48%;
+    margin-top: 30px;
+}
+.hero img{
+    max-width: 100%;
+    height: 0 auto;
+}
+.hero-content{
+    padding-bottom: 250px;
+    width: 50%;
+}
+.hero-content h1{
+    letter-spacing: 2px;
+    font-size: 70px;
+}
+.hero-content p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.hero-content button{
+    margin-top: 20px;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    font-size: 15px;
+    background: red;
+    border: 0px;
+    border-radius: 20px;
+}
+.hero-content h4{
+    margin-left: 45%;
+    margin-top: -5%;
+    font-size: 25px;
+}
+.aside{
+    position: absolute;
+}
+.aside img{
+    max-width: 100%;
+    height: 0 auto;
+}
+.aside-content{
+    padding-bottom: 200px;
+    display: flex;
+    width: 100%;
+}
+.aside-asistant {
+    margin: 20px;
+    padding: 15px;
+    width: 30%;
+}
+.aside-asistant h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.aside-asistant button{
+    background: red;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.aside-divider{
+    display: flex;
+    width: 80%;
+}
+.design{
+    background: #ededed;
+    box-sizing: border-box;
+    width: 40%;
+    margin: 25px;
+    padding: 35px;
+    box-shadow: 9px -1px 16px -7px rgba(0,0,0,0.65);
+}
+.design h1{
+    font-size: 30px;
+}
+.design p{
+    font-size: 20px;
+    font-family: system-ui;
+}
+.about{
+    display: flex;
+    width: 100%;
+}
+.geticole{
+    width: 60%;
+}
+.about-content{
+    width: 40%;
+}
+.about-content h3{
+    color: red;
+    font-size: 20px;
+}
+.about-content h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.about-content p{
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 2px;
+
+}
+.aside2{
+    position: absolute;
+    top: 190%;
+    right: -31%;
+    width: 48%;
+    margin-top: 30px;
+
+}
+.aside2 img{
+    max-width: 100%;
+    height: 0 auto;    
+}
+.aside3{
+    position: absolute;
+    margin-top: -44%;
+    z-index: -9;
+}
+.aside3 img{
+    max-width: 100%;
+    height: 0 auto;
+}
+.aside4{
+    position: absolute;
+    left: 80%;
+    margin-top: 15%;
+    z-index: -9;
+}
+.aside4 img{
+    max-width: 100%;
+    height: 0 auto;
+}
+.creative{
+    margin-top: 150px;
+}
+.creative h1{
+    line-height: 50px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    font-size: 40px;
+}
+.creative-box{
+    display: ruby;
+}
+.creative-box p{
+    border-radius: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: red;
+    text-align: center;
+    margin-left: 46%;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.creative-box p:hover{
+    background: red;
+    color: white;
+}
+.creative-content{
+    margin: 13px 13px;
+}
+
+.check-section{
+    margin-top: 100px;
+}
+.check-head{
+    margin-left: 15px;
+}
+.check-head h4{
+    color: red;
+    font-size: 20px;
+}
+.check-head h1{
+
+    font-size: 35px;
+
+}
+.check-box{
+    display: flex;
+}
+.adenture{
+    box-shadow: 10px -8px 15px -8px rgba(0, 0, 0, 0.75);
+    border: 1px solid silver;
+    background: #f0f1f1;
+    margin: 30px;
+    padding: 25px;
+    font-weight: 100;
+}
+.adenture:hover{
+    background: red;
+    color: white;
+    font-weight: 100;
+}
+.adenture h2{
+    padding-top: 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+
+}
+.adenture h3{
+    color: silver;
+    font-weight: 100;
+}
+
+.adenture p{
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.Contact-section{
+    margin-top: 100px;
+}
+.contact-head{}
+.contact-head h4{
+    color: red;
+    font-family: fangsong;
+}
+.contact-head form{
+
+}
+::placeholder{
+    color: black;
+}
+.contact-head input[type="text"]{
+    padding: 15px;
+    padding-right: 325px;
+    background: #F4FAFE;
+    border: 0px;
+    font-size: 16px;
+    font-family: math;
+    margin-right: 30px;
+}
+.contact-head input[type="Message"]{
+    font-size: 16px;
+    padding: 15px;
+    padding-bottom: 100px;
+    padding-right: 390%;
+    background: #F4FAFE;
+    border: 0px;
+    margin-top: 10px;
+    font-family: math;
+}
+.contact-head form button{
+    margin-left: 40%;
+    margin-top: 30px;
+    padding: 15px 40px;
+    border: 0px;
+    border-radius: 45px;
+    font-size: 18px;
+    color: white;
+    background: red;
+    cursor: pointer;
+}
+.above-section{
+    background: #314584;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.above-head{
+    color: white;
+}
+.above-head h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.above-head h1{
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    color: #FF3946;
+}
+.above-head ul{
+    list-style: none;
+}
+.above-head ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+}
+.above-head h2{
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.icon{
+    margin-left: -25px;
+    padding-top: 10px;
+}
+.icon ul{
+    list-style: none;
+}
+.icon ul li a{
+    text-decoration: none;
+    padding: 35px;
+    font-size: 40px;
+}
